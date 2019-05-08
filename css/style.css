@@ -15,6 +15,7 @@
 @media (max-width: 639px) {	
 .logo{
 	margin-left: 0px; 
+	transform: scale(0.7);
 }
 }
 .header-top-left{
@@ -84,16 +85,19 @@
 
 	.col3 {
 	width: 1px; 
- /*	display: none;	*/}
+ /*	display: none;	*/
+}
 }
 	
 	
 .bot {
 	position: relative; 
+	width:100%;	
 	top: 130px;
 	
 	}
 .bot-menu {
+	width:100%;
 	position: relative; 
 	top: -5px;
 	display:flex;
@@ -122,7 +126,9 @@
 	}
 
 .copy{
-	top:120px; 
+	width:100%;
+	position: relative; 
+	top:-5px; 
 	background:#ddd; 
 	text-align:right; 
 	font-family:Verdana; 
