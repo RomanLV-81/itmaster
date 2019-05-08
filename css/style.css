@@ -84,7 +84,9 @@
 
 	.col3 {
 	width: 1px; 
- /*	display: none;	*/}
+ /*	display: none;	*/
+	transform: scale(0);
+	}
 }
 	
 	
