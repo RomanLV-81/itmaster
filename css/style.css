@@ -79,12 +79,14 @@
 @media (max-width: 767px) {	
 	.col1 {
 	display: hidden;
-	width: 1px; 	}
+	width: 1px;
+	}
 
 
 	.col3 {
 	width: 1px; 
-	display: none; }
+	display: none;
+	}
 }
 	
 	
