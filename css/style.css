@@ -102,14 +102,13 @@ h2 {
 	display: none;
 	}
 }
-}
 
 	.bot {
 	width:100%;
 	position: relative; 
 	top: 130px;
-	
-	}
+		}
+
 .bot-menu {
 	width:100%;
 	position: relative; 
@@ -121,28 +120,27 @@ h2 {
 	color:#494949; 
 	font-size:11px;
 	}
-.bot-menu ul{list-style-type:none; float:left; padding:0 0 0 37px; margin-left:0px;}
+.bot-menu ul{list-style-type:none; float:left; padding:0 0 0 7px; margin-left:0px;}
 .bot-menu a{color:#494949;}
 .bot-menu a:hover{color:#727272;}
 	
 .botcol1 {
     background: #ddd;
 	float: left; 
-	width: 20%; 
-	padding: 10px;
+	width: 25%;
+	padding: 5px 5px 5px 45px;
 	}
 .botcol2 {
     background: #ddd;
-    padding: 10px;
-	width: 20%; 
-	padding: 10px;
-
+	float: left;
+	width: 25%;
+	padding: 5px;
 	}
 
 .copy{
 	width:100%;
 	position: relative; 
-	top:-5px; 
+	top:-5px;
 	background:#ddd; 
 	text-align:right; 
 	font-family:Verdana; 
