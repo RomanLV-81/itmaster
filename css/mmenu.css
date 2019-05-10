@@ -26,12 +26,12 @@ body {
 .mainmenu ul {
 	clear: left;
 	position: relative;
-	left: 20%;
+	left: 30%;
 	height: 40px;
 	float: left;
 	text-align: left;
 	font: 15px Arial, Helvetica, sans-serif;
-	font-size:18px;font-weight: 600;
+	font-size: 20px;font-weight: 600;
 	list-style: none;
 	padding: 0;
 	margin: 0;
@@ -39,9 +39,14 @@ body {
 	/*display: flex;*/
 }
 
+@media screen and (max-width: 880px) {
+	.mainmenu ul {
+		left: 20%;
+	}
+}
 @media screen and (max-width: 719px) {
 	.mainmenu ul {
-	left: 10%;
+		left: 10%;
 	}
 }
 @media screen and (max-width: 599px) {
@@ -63,7 +68,7 @@ body {
 	display: inline-block;
 	color: #000;
 	text-decoration: none;
-	padding: 0 20px;
+	padding: 0 15px;
 	line-height: 40px;
 }
 .mainmenu ul li:first-child > a {
@@ -84,6 +89,7 @@ body {
 	left: 0;
 	top: 40px;
 	display: none;
+	font-size: 18px;font-weight: 600;
 	list-style: none;
 	visibility: hidden;
 	padding: 0;
@@ -105,7 +111,7 @@ body {
 	border-bottom: 1px solid #999;
 	display: block;
 	color: #000;
-	padding: 10px 15px;
+	padding: 0px 15px;
 	text-decoration: none;
 }
 .mainmenu ul li ul li.parent a {
@@ -161,7 +167,7 @@ body {
 }
 
 /*.menuBurger {*/
-	/*padding: 10px 15px;*/
+	/*padding: 0px 15px;*/
 	/*display: none;      !* кнопка гамбургер скрыта *!*/
 	/*cursor: pointer;*/
 /*}*/
