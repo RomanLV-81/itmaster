@@ -1,4 +1,31 @@
 /* Заголовок мелкий */
+th1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	text-align:center;
+}/* Заголовок мелкий слева*/
+th1l {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	text-align:left;
+}
+/* Заголовок крупный */
+th2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 150%;
+	text-align:center;
+}
+/* Текст */
+tp {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	text-align:justify;
+}
+tp1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align:justify;
+}/* Заголовок мелкий */
 h1 {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 18px;
@@ -55,7 +82,7 @@ p1 {
 .header-top-center{
 	background:linear-gradient(#eee, #fff);
 /*	background-image: url("../img/headbg.jpg");
-*/	left: 280px; 
+*/	left: 280px;
 	right: 400px; 
 	width: 100%;
 	height: 90px; 
@@ -83,8 +110,8 @@ p1 {
 
 .cont {
 	position: relative; 
-	top: 130px;
-	display:flex;
+/*	top: 130px;
+*/	display:flex;
 	}
 	
 .col1 {
