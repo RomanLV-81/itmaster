@@ -55,7 +55,7 @@ p1 {
 }
 .header-top{
 	width:100%;
-	padding:0px 10px 0px 10px;
+	padding:0px 0px 0px 0px;
 	position: fixed;
 	z-index: 10
 	}
@@ -94,7 +94,6 @@ p1 {
 	right:0px;
 	width: 280px; 
 	height: 90px;
-	right: 0; 
 	text-align:right;	
 	font-size:14px;	
 	font-weight: 600;
