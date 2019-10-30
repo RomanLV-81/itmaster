@@ -92,9 +92,9 @@ p1 {
 	position: absolute;
 	top:0px;
 	right:0px;
-	width: 280px; 
+	width: 280px;
 	height: 90px;
-	text-align:right;	
+	text-align:right;
 	font-size:14px;	
 	font-weight: 600;
 	background:linear-gradient(#eee, #fff);
@@ -112,11 +112,12 @@ p1 {
 	top: 130px;
 	display:flex;
 	}
+
 .contind {
-	position: relative; 
+	position: relative;
 	top: -20px;
 	display:flex;
-	}	
+}
 .col1 {
     background: #fff;
 	float: left; width: 20%; padding: 10px;
