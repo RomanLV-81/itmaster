@@ -2,13 +2,24 @@
 <html lang="ru-ru" class="no-js">
 	<head>
 
-		<meta charset="UTF-8">
+		<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=0.6">
 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 		<title>IT-Master</title>
 		
 <!--		<link href="css\content.css" rel="stylesheet"> -->
 		<link href="css\style.css" rel="stylesheet">
 		<link href="css\mmenu.css" rel="stylesheet">
+		<link href="css\slider.css" rel="stylesheet">
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-139612828-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-139612828-1');
+		</script>
 	</head>
 <body>	
 
@@ -39,24 +50,23 @@
 
 			<!-- Меню гамбургер, при клике, развернутся пункты меню -->
 <!--			   <div class="menuBurger">
-			   <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg">
-					 <g>
-					  <title>background</title>
-					  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
-					 </g>
-					 <g>
-					  <title>Layer 1</title>
-					  <path fill="#044cf1" id="svg_1" d="m4,10l24,0c1.104,0 2,-0.896 2,-2s-0.896,-2 -2,-2l-24,0c-1.104,0 -2,0.896 -2,2s0.896,2 2,2zm24,4l-24,0c-1.104,0 -2,0.896 -2,2s0.896,2 2,2l24,0c1.104,0 2,-0.896 2,-2s-0.896,-2 -2,-2zm0,8l-24,0c-1.104,0 -2,0.896 -2,2s0.896,2 2,2l24,0c1.104,0 2,-0.896 2,-2s-0.896,-2 -2,-2z"/>
-					 </g>
-					</svg>
-               </div>
-		
--->		
-		
-		
-		<div id="mainmenu">
+                       <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg">
+                             <g>
+                              <title>background</title>
+                              <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+                             </g>
+                             <g>
+                              <title>Layer 1</title>
+                              <path fill="#044cf1" id="svg_1" d="m4,10l24,0c1.104,0 2,-0.896 2,-2s-0.896,-2 -2,-2l-24,0c-1.104,0 -2,0.896 -2,2s0.896,2 2,2zm24,4l-24,0c-1.104,0 -2,0.896 -2,2s0.896,2 2,2l24,0c1.104,0 2,-0.896 2,-2s-0.896,-2 -2,-2zm0,8l-24,0c-1.104,0 -2,0.896 -2,2s0.896,2 2,2l24,0c1.104,0 2,-0.896 2,-2s-0.896,-2 -2,-2z"/>
+                             </g>
+                            </svg>
+                       </div>
+-->
+
+
+		<div class="mainmenu">
 		<ul>
-	<!-- Пункт меню 1 -->
+            <!-- Пункт меню 1 -->
 		<li><a href="index.html">Главная</a>
 		</li>
 <!-- Пункт меню 2 -->
@@ -103,30 +113,98 @@
 <!-- Конец блока #mainmenu -->
 	</div>
 
+
+
+	<!-- Slider -->
+	<div id="slider">
+		<div class="slides">
+			<div class="slider">
+				<div class="legend"></div>
+				<div class="content">
+					<div class="content-txt">
+						<h1>Ремонт ноутбуков</h1>
+						<h2>Компонентный ремонт любой сложности. Замена чипсетов, видеочипов, контролеров. Прошивка микросхем. Гарантия на все выполненные работы.</h2>
+					</div>
+				</div>
+				<div class="image">
+					<img src="img/1.jpg">
+				</div>
+			</div>
+			<div class="slider">
+				<div class="legend"></div>
+				<div class="content">
+					<div class="content-txt">
+						<h1>Профилактика</h1>
+						<h2>Чистка компьютера/ноутбука от пыли, замена термопасты и термопрокладок. </h2>
+					</div>
+				</div>
+				<div class="image">
+					<img src="img/2.jpg">
+				</div>
+			</div>
+			<div class="slider">
+				<div class="legend"></div>
+				<div class="content">
+					<div class="content-txt">
+						<h1>Модернизация</h1>
+						<h2>Замена комплектующих на более производительные. Подбор и проверка совместимости. Доработка систем охладжения и пр. </h2>
+					</div>
+				</div>
+				<div class="image">
+					<img src="img/3.jpg">
+				</div>
+			</div>
+			<div class="slider">
+				<div class="legend"></div>
+				<div class="content">
+					<div class="content-txt">
+						<h1>Сотрудничество</h1>
+						<h2>Предлагаем услуги ИК паяльной станции, программатора, прошивка BIOS и MIO контроллеров. Скидки постоянным клиентам и просто хорошим людям :)</h2>
+					</div>
+				</div>
+				<div class="image">
+					<img src="img/4.jpg">
+				</div>
+			</div>
+		</div>
+<!--		<div class="switch">
+			<ul>
+				<li>
+					<div class="on"></div>
+				</li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
+-->
+	</div>
+
+
+
+
 <!-- Контент -->
 
-<div class="cont">
+<div class="contind">
 
 	<div class="col1">
-<!--		<p><a href="link1.html">пункт1</a></p>
-		<p><a href="link2.html">пункт2</a></p>
-		<p><a href="link3.html">пункт3</a></p>
-		<p><a href="contact.html">пункт4</a></p>
+<!--		<tp><a href="link1.html">пункт1</a></tp>
+		<tp><a href="link2.html">пункт2</a></tp>
+		<tp><a href="link3.html">пункт3</a></tp>
+		<tp><a href="contact.html">пункт4</a></tp>
 --> 
 	</div>
 	<div class="col2"> 
-		<p style="font-family:arial; text-align:center; line-height:1.4; font-size:15px;">
-	
-			<br /><font size="4"><b>Сломался ноутбук, компьютер, монитор? Не знаете где починить?</b></font><br />
-			<br /><font size="5"><b>Мы всегда рады помочь!</b></font><br />
-			<br /><font size="4"><b>Быстро, качественно, недорого!</b></font><br />
 
-		<p style="font-family:arial; line-height:1.4; font-size:13px;">
-	
-			<br /><font size="3"><b>Почему именно мы?</b>
+<!--			<br /><th1><b>Сломался ноутбук, компьютер, монитор? Не знаете где починить?</b></th1>
+			<br /><th2><b>Мы всегда рады помочь!</b></th2>
+			<br /><th1><b>Быстро, качественно, недорого!</b></th1>
+-->
+			<br />
+			<br /><th2><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Почему именно мы?</b></th2>
 			<br />
 			<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Сервисный центр IT-Master занимается ремонтом и обслуживанием компьютерной техники более 10 лет. Наши специалисты имеют огромный опыт и могут в кратчайшие сроки установить причину поломки и выполнят ремонт Вашей техники.
-			<br />Все работы производятся на прфессиональном оборудовании с использованием только качественных материалов и оригинальных комплектующих. На все работы дается гарантия (от 1 до 6 месяцев)
+			<br />Все работы производятся на прфессиональном оборудовании с использованием только качественных материалов и оригинальных комплектующих. На все работы дается гарантия (до 6 месяцев)
 			<br />
 			<br />Обратившись в наш сервис Вы получите:
 			<br />- Предварительную консультацию по озвученной проблеме в работе вашого устройства и ориентиры по стоимости и срокам устранения дефекта непосредственно в нашем офисе или по телефону
@@ -148,8 +226,8 @@
 
 	</div>
 	<div class="col3">
-     <img src = "img/nout2.png" style="WIDTH=290; HEIGHT=236; "  alt = "Ремонт ноутбуков Днепр" />
-	</div> 
+<!--     <img src = "img/nout2.png" style="WIDTH=290; HEIGHT=236; "  alt = "Ремонт ноутбуков Днепр" /> -->
+	</div>
 </div>
 
 <!-- Конец контента  -->
@@ -161,12 +239,12 @@
 <div class="bot">
   <img src = "img/footer1.jpg" alt = "" width="100%"/>
 	<div class="bot-menu">
+		<!--<div class="botcol1">-->
+			<!--<ul>-->
+				<!--<li></li>-->
+			<!--</ul>-->
+		<!--</div>-->
 		<div class="botcol1">
-			<ul>
-				<li></li>
-			</ul>
-		</div>
-		<div class="botcol2"> 
 			<ul>
 				<li><a href = "index.html">Главная</a></li>
 				<li><a href = "#">Услуги</a></li>
@@ -174,7 +252,7 @@
 				<li><a href = "contacts.html">Контакты</a></li>
 			</ul>
 		</div>
-		<div class="botcol1"> 
+		<div class="botcol2">
 			<ul>
 				<li><a href = "laptop.html">Ремонт ноутбуков</a></li>
 				<li><a href = "monitor.html">Ремонт мониторов</a></li>
@@ -190,7 +268,7 @@
 				<li><a href = "solutions.html">IT инфраструктура</a></li>
 			</ul>
 		</div>
-		<div class="botcol1"> 
+		<div class="botcol2">
 			<ul>
 				<li>Сервисный центр</li>
 				<li>&nbsp;</li>

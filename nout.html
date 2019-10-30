@@ -1,90 +1,96 @@
 <!DOCTYPE html>
 <html lang="ru-ru" class="no-js">
-	<head>
+<head>
 
-		<meta charset="UTF-8">
-		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-		<title>IT-Master</title>
-		
-<!--		<link href="css\content.css" rel="stylesheet"> -->
-		<link href="css\style.css" rel="stylesheet">
-		<link href="css\mmenu.css" rel="stylesheet">
-	</head>
-<body>	
+	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=0.6">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<title>IT-Master</title>
 
-	<div class="header-top">
-		<div class="row">
-			<div class="header-top-left">
-				<div id="logo">
-					<a href="index.html"><img src="img/logo.png" alt="" title="" /></a>
-				</div>
-			</div>
+	<!--		<link href="css\content.css" rel="stylesheet"> -->
+	<link href="css\style.css" rel="stylesheet">
+	<link href="css\mmenu.css" rel="stylesheet">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-139612828-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
 
-			<div class="header-top-center">
-				<div>
-<!--					<a href="index.html"><img src="img/headbg.jpg" alt="" title="" /></a>
+		gtag('config', 'UA-139612828-1');
+	</script>
+</head>
+<body>
 
-						<br /> Какойто текст
--->				</div>
-
-			</div>
-
-			<div class="header-top-right">
-					<ul><li><a href="contact.html">г. Днепр, ул. Владимира Великого </a></li></ul>
-					<ul><li><a href="contact.html">(быв Плеханова) 18 оф. 402</a></li></ul>
-					<ul><li><a href="contact.html">тел/viber 063-794-75-73</a></li></ul>
-					<ul><li><a href="contact.html">ПН-ПТ с 12.00 до 19.00</a></li></ul>
+<div class="header-top">
+	<div class="row">
+		<div class="header-top-left">
+			<div class="logo">
+				<a href="index.html"><img src="img/logo.png" alt="" title="" /></a>
 			</div>
 		</div>
 
-		<div id="mainmenu">
-		<ul>
-	<!-- Пункт меню 1 -->
-		<li><a href="index.html">Главная</a>
-		</li>
-<!-- Пункт меню 2 -->
-		<li><a href="info.html" class="active">Инфо</a>
-			<ul>
-				<li><a href="news.html">Новости</a></li>
-				<li><a href="price.html">Прайс</a></li>
-				<li class="parent"><a href="articles.html">Обучающие материалы</a>
-<!--					<ul>
-						<li><a href="#">подпункт 2.3.1</a></li>
-						<li><a href="#">подпункт 2.3.2</a></li>
-						<li><a href="#">подпункт 2.3.3</a></li>
-					</ul>
--->				</li>
-			</ul>
-		</li>
-<!-- Пункт меню 3 -->
-		<li><a href="services.html">Услуги</a>
-			<ul>
-				<li class="parent"><a href="repair.html">Ремонт</a>
-					<ul>
-						<li><a href="nout.html">Ремонт ноутбуков</a></li>
-						<li><a href="monitor.html">Ремонт мониторов</a></li>
-						<li><a href="pc.html">Ремонт ПК</a></li>
-						<li><a href="video.html">Ремонт видеокарт</a></li>
-						<li><a href="mb.html">Ремонт материнских плат</a></li>
-					</ul>
-				</li>
-					<li><a href="clean.html">Профилактика</a></li>
-				<li><a href="upgrade.html">Модернизация</a></li>
-<!--				<li><a href="#">подпункт 3.4</a></li>
-				<li><a href="#">подпункт 3.5</a></li>
--->			</ul>
-		</li>
-<!-- Пункт меню 4 -->
-		<li><a href="price.html">Цены</a>
-		</li>
-<!-- Пункт меню 5 -->
-		<li><a href="contact.html">Контакты</a>
-		</li>
-		</ul>
-<!-- Конец списка -->
+		<div class="header-top-center">
+			<div>
+				<!--					<a href="index.html"><img src="img/headbg.jpg" alt="" title="" /></a>
+                                        <br /> Какойто текст                -->
+			</div>
+
 		</div>
-<!-- Конец блока #mainmenu -->
+
+		<div class="header-top-right">
+			<ul><li><a href="contact.html">г. Днепр, ул. Владимира Великого </a></li></ul>
+			<ul><li><a href="contact.html">(быв Плеханова) 18 оф. 402</a></li></ul>
+			<ul><li><a href="contact.html">тел/viber 063-794-75-73</a></li></ul>
+			<ul><li><a href="contact.html">ПН-ПТ с 12.00 до 19.00</a></li></ul>
+		</div>
 	</div>
+
+
+	<div class="mainmenu">
+		<ul>
+			<!-- Пункт меню 1 -->
+			<li><a href="index.html">Главная</a>
+			</li>
+			<!-- Пункт меню 2 -->
+			<li><a href="info.html" class="active">Инфо</a>
+				<ul>
+					<li><a href="news.html">Новости</a></li>
+					<li><a href="price.html">Прайс</a></li>
+					<li class="parent"><a href="articles.html">Обучающие материалы</a>
+						<ul>
+							<li><a href="bga.html">BGA монтаж</a></li>
+							<li><a href="why-change.html">Почему нужно менять чип на новый</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<!-- Пункт меню 3 -->
+			<li><a href="services.html">Услуги</a>
+				<ul>
+					<li class="parent"><a href="repair.html">Ремонт</a>
+						<ul>
+							<li><a href="nout.html">Ремонт ноутбуков</a></li>
+							<li><a href="monitor.html">Ремонт мониторов</a></li>
+							<li><a href="pc.html">Ремонт ПК</a></li>
+							<li><a href="video.html">Ремонт видеокарт</a></li>
+							<li><a href="mb.html">Ремонт материнских плат</a></li>
+						</ul>
+					</li>
+					<li><a href="clean.html">Профилактика</a></li>
+					<li><a href="upgrade.html">Модернизация</a></li>
+				</ul>
+			</li>
+			<!-- Пункт меню 4 -->
+			<li><a href="price.html">Цены</a>
+			</li>
+			<!-- Пункт меню 5 -->
+			<li><a href="contact.html">Контакты</a>
+			</li>
+		</ul>
+		<!-- Конец списка -->
+	</div>
+	<!-- Конец блока #mainmenu -->
+</div>
 
 <!-- Контент -->
 
@@ -93,13 +99,12 @@
 	<div class="col1">
 <!--		<p><a href="link1.html">пункт1</a></p>
 		<p><a href="link2.html">пункт2</a></p>
-		<p><a href="link3.html">пункт3</a></p>
-		<p><a href="contact.html">пункт4</a></p>
---> 
+-->
 	</div>
-	<div class="col2"> 
-		<p style="font-family:arial; line-height:1.4; font-size:15px;">
-	
+	<div class="col2">
+
+		<h1l><b><a href="repair.html">Ремонт</a> >> <a href="nout.html">Ремонт ноутбуков</a> </b></b></h1l>
+			<br />
 			<br />&nbsp;&nbsp;&nbsp;&nbsp;Ноутбук - это переносной персональный компьютер  в корпусе которого объединены все  компоненты ПК, включая дисплей, клавиатуру и устройство указания (обычно сенсорная панель или тачпад). Это компактное и сложное устройство, что накладывает определенные ограничения и тонкости работы и обслуживания. 
 			<br />&nbsp;&nbsp;Удары, падения, перегрев, залитие жидкостью – наиболее частые причины выхода из строя и по которым люди обращаются в сервис за помощью. Также из-за сложности и разнообразия моделей случаются поломки из-за недоработок производителя, т.к. производители не всегда могут предусмотреть и учесть все нюансы.
 			<br />&nbsp;&nbsp;Наш сервисный центр осуществляет ремонт ноутбуков любой степени сложности и любых производителей, таких как: Acer, ASUS, Toshiba, Samsung, Fujitsu, Sony, MSI, Dell, HP, IBM, RoverBook, Gateway, Lenovo и любых других известных производителей ноутбуков. Мы не являемся посредниками, мы сами производим диагностику и ремонт ноутбука. На все ремонтные работы дается гарантия. Ремонт ноутбуков производится нашими высококвалифицированными мастерами на самом современном оборудовании. 
@@ -124,7 +129,6 @@
 			<br />
 			<br />Стоимость основных работ представлена в разделе <a href="price.html">НАШИ ЦЕНЫ</a>
  
-		</p>
 
 
 	</div>
@@ -135,19 +139,12 @@
 
 <!-- Конец контента  -->
 
-
 <!--  Низ оно же подвал -->
 
-
 <div class="bot">
-  <img src = "img/footer1.jpg" alt = "" width="100%"/>
+	<img src = "img/footer1.jpg" alt = "" width="100%"/>
 	<div class="bot-menu">
 		<div class="botcol1">
-			<ul>
-				<li></li>
-			</ul>
-		</div>
-		<div class="botcol2"> 
 			<ul>
 				<li><a href = "index.html">Главная</a></li>
 				<li><a href = "#">Услуги</a></li>
@@ -155,7 +152,7 @@
 				<li><a href = "contacts.html">Контакты</a></li>
 			</ul>
 		</div>
-		<div class="botcol1"> 
+		<div class="botcol2">
 			<ul>
 				<li><a href = "laptop.html">Ремонт ноутбуков</a></li>
 				<li><a href = "monitor.html">Ремонт мониторов</a></li>
@@ -171,7 +168,7 @@
 				<li><a href = "solutions.html">IT инфраструктура</a></li>
 			</ul>
 		</div>
-		<div class="botcol1"> 
+		<div class="botcol2">
 			<ul>
 				<li>Сервисный центр</li>
 				<li>&nbsp;</li>
@@ -180,8 +177,6 @@
 				<li></li>
 			</ul>
 		</div>
-
-
 	</div>
 
 	<div class = "copy">
@@ -189,8 +184,6 @@
 	</div>
 
 </div>
-
-
 
 
 </body>
