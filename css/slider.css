@@ -6,9 +6,10 @@ body{
 }
 /* Slider */
 #slider{
-    width:100%;
+    width:1280px;
     height:500px;
     position:relative;
+    margin: 0 auto;
     overflow:hidden;
 }
 @keyframes load{
